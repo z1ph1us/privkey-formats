@@ -1,0 +1,91 @@
+RAW / HEX KEYS
+
+Hex 64                   ^[0-9a-fA-F]{64}$
+#b4cd94c551d3bd88e92528847d2f877b01045edeab287e079529cdb73f66d755
+Hex 64 with 0x           ^0x[0-9a-fA-F]{64}$
+#0xb4cd94c551d3bd88e92528847d2f877b01045edeab287e079529cdb73f66d755
+Hex 128                  ^[0-9a-fA-F]{128}$
+#87ea4bcf121f00af87311c5d441ab42f49ef0a187f12a6b6c5e97bbe5e9bd73d1eaf753b0498ba5f90a95c5afa82ebf4d752c41d4712b8e158bd1820ba52535d
+
+BITCOIN WIF
+
+WIF uncompressed         ^5[1-9A-HJ-NP-Za-km-z]{50}$
+#5HueCGU8rMjxEXxiPuD5BDku4MkFqeZyd4dZ1jvhTVqvbTLvyTJ
+WIF compressed           ^[KL][1-9A-HJ-NP-Za-km-z]{51}$
+#KwdMAjGmerYanjeui5SHS7JkmpZvVipYvB2LJGU1ZxJwYvP98617
+BIP38 encrypted          ^6P[1-9A-HJ-NP-Za-km-z]{56}$
+#6PRVWUbkzzsbcVac2qwfssoUJAN1Xhrg6bNk8J7Nzm5H7kxEbn2Nh2ZoGg
+Mini key                 ^S[1-9A-HJ-NP-Za-km-z]{29}$
+#S6c56bnXQiBjk9mqSYE7ykVQ7NzrRy
+
+ALTCOIN WIF
+
+Litecoin uncompressed    ^6[1-9A-HJ-NP-Za-km-z]{50}$
+#6u823ozcyt2rjPH8Z2ErsSXJB5PPQwK7VVTwwN4mxLBFrao69XQ
+Litecoin compressed      ^T[1-9A-HJ-NP-Za-km-z]{51}$
+#T33ydQRKp4FCW5LCLLUB7deioUMoveiwekdwUwyfRDeGZm76aUjV
+Dogecoin uncompressed    ^6[1-9A-HJ-NP-Za-km-z]{50}$
+#6J8csdv3eDrnJcpSEb4shfjMh2JTiG9MKzC1Yfge4Y4GyUsjdM6
+Dogecoin compressed      ^Q[1-9A-HJ-NP-Za-km-z]{51}$
+#QNcdLVw8fHkixm6NNyN6nVwxKek4u7qrioRbQmjxac5TVoTtZuot
+Dash uncompressed        ^7[1-9A-HJ-NP-Za-km-z]{50}$
+#7rvVMqZAgLgH84AJxd2pDr8PnPf9Tej4bPHmyr85GQBwWraTRXn
+Dash compressed          ^X[1-9A-HJ-NP-Za-km-z]{51}$
+#XHM6AyJyidrNA8x6GW31RhqdZM1NLdWermP3XupDpyMHcf9RQ2zi
+Zcash uncompressed       ^5[1-9A-HJ-NP-Za-km-z]{50}$
+#5HpHagT65TZzG1PH3CSu63k8DbpvD8s5ip4nEB3kEsreAnchuDf
+Zcash compressed         ^[KL][1-9A-HJ-NP-Za-km-z]{51}$
+#KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn
+
+
+BIP32 EXTENDED KEYS
+
+xprv                     ^xprv[1-9A-HJ-NP-Za-km-z]{107,108}$
+#xprv9vDtAGzBKQSK83hP6SbP5ohQrNS4sX3kCedJVK9xGJRrtLfmktAyWYyTmvwCSSeMzUvwBVr7qPLJx1gFsHxY2PqwSPN2k5MY9mAsrnFiDzj
+
+yprv zprv                ^[yz]prv[1-9A-HJ-NP-Za-km-z]{107,108}$
+#yprvAF49Twf6U5ynyLtVvoP1Htnv2LaWp93F7m9XGi3qeJojwSV11YLY8cdbo8tnSMJHQ83jvySgJ3grqJHpazNYpdXYJj4TKzB2RVEXFNF7A5Y
+#zprvAZtQmcL1cmXGpe5cmAAdVytRCJixkm2k2sfk46wj2KBczYJEGCW6kgHjpLrNSFxComAYgT3Eki3QiauPJgnZcsD9B4ksutzWhDJAdyganc5
+
+Yprv Zprv multisig       ^[YZ]prv[1-9A-HJ-NP-Za-km-z]{107,108}$
+#YprvARxEbBPY33YAPv3ssTqz7y8ik8cn2ViqS2oCByKP25e9Zd3umwipDjVXbqrFznXBdb7ioZSoBG5MxTuatDXVy7eD9CArjPe2KDWPqHnCA8U
+#ZprvAknVtr4TBj5eFDEzhpdcL4EDv6mDy7iLM9KQyNDGQ622cis92btNqo9fd3oqzhB73EEXZ33MdvRuqkX9buwWmMKp1XsHKJTWawa3DtF8pFn
+
+Litecoin Ltpv Mtpv       ^(?:Ltpv|Mtpv)[1-9A-HJ-NP-Za-km-z]{107,108}$
+#Ltpv74U1ReJZo4mey2LxYLe1EDvA3dtvxWj5cderSoYPFx1wu9SedWwXsPg7jhUDKAHYubWDG1VdzU2xwWoLGQwWfWDHPxKD42QZx9nmvK9xKVU
+#Mtpv7PJGjJyUwkK8pKY5NhRdSK1fDc3Nu8iaXkB5ECSGdxPpxFFstB76VTLFkuRoK4wUKEd21V6CT8PWpoQtz7MXTjttGJ1ddwE4DsrRJs9sm39
+
+Polis pprv               ^pprv[1-9A-HJ-NP-Za-km-z]{107,108}$
+#pprvFdGTTr8CRxDqzf7mDCRyTNemVcww6Rap5q8iiHdZ6BgERE5ZpUMpAk1jw9BdyJyv9pzcoAykXqkA73icPN9iitZq2dKe5xjpepWi4XhAmF7
+
+
+OTHER CHAINS
+
+Solana                   ^[1-9A-HJ-NP-Za-km-z]{87,88}$
+#2V7XKAkSSzAPdBBs5qEhk5DHNbq6tR7PmmLGHuHqQDuGDkxd3gr8Dmi6wrwr7xr6FYYQfHMhio2cAa4LEZ8DVHm4
+Stellar                  ^S[A-Z2-7]{55}$
+#SDOO65IKMXWWWZUDEDYHZVIDOEQHQZBJ4DS24SCT4RZZEVWAW6S73TZY
+XRP ed25519              ^sEd[1-9A-HJ-NP-Za-km-z]{27,30}$
+#sEdVh9vjkvB8ZEc3LHy2zQsc4FxQ1DJ
+XRP secp256k1            ^s(?!Ed)[1-9A-HJ-NP-Za-km-z]{27,30}$
+#snqqRQehM3Jj8dKWLNvrhvSLP6PWy
+Tezos                    ^(?:edsk|spsk|p2sk|edesk|spesk|p2esk)[1-9A-HJ-NP-Za-km-z]{50,94}$
+#edsk3JZyHNKKfjnSxmzVoA9NaEZi8rbgb7V5AWYBmLNQgCYhN1peDn
+Cardano CBOR (normal)    ^5820[0-9a-f]{64}$
+#58208a2fb870a3cb187c4b75df9e17abe45fc3e18fd8887d5f013fc9b4c75421bc5d
+Cardano CBOR (extended)  ^5880[0-9a-f]{256}$
+#5880d8fcc0f6bd51cd59c9c3bafdcd644d744c66ac72726d05416b704fc2e00eca5349a6e2e3247112b022d46de62fc15d56771bf442f982db997c8375b4fb4c73c602686ab5d0b778f56d4f4d16cd221bd0cae05a1bf9495f1d65238aa348071abe4b87ede4a36e8d8cc717f997b7951ab262e7b02381749d9eb1e066874d6de9ee
+Cardano Bech32           ^(?:ed25519_sk|stake_sk|addr_sk|ed25519e_sk|acct_xsk|root_xsk|addr_xsk|stake_xsk)1[ac-hj-np-z02-9]{58,170}$
+#stake_sk1kk6fndnr9qnzg39txa9v04zskpne4p4hyvq38dwywcszdfg3wxjseet04g
+Sui                      ^suiprivkey1[ac-hj-np-z02-9]{57,63}$
+#suiprivkey1qqk2pem9ag4sfq4d2wl2e948gf2uw4qepkz0hccvq8aphc7psg7ejd97q6f
+Mina                     ^EK[1-9A-HJ-NP-Za-km-z]{50}$
+#EKFJwNVgyyjVhVP9n8n3qTsZqMXkrLn43ymuBuvrLxRx8kvmRxNg
+NEAR                     ^ed25519:[1-9A-HJ-NP-Za-km-z]{87,88}$
+#ed25519:2ZHVmYCnXJ3mEYfccy8oVmGyU4jNra27GzKbz9yNTTUVGB1YdMcbyGspAS8m2WtiwkhHM5kqVaXydbzJwEsnKtxq
+Qubic                    ^[a-z]{55}$
+#hxdwygemagpvzorzlsbtwgsfnhcdeqeijolfogkxihhalhfmkblqqxz
+Hedera DER     ^302e020100300506032b657004220420[0-9a-fA-F]{64}$
+#302e020100300506032b657004220420a226c22e9b514ee1b62f477699f96dba34647ec1274889ec673d54608a4a3dd4
+EOS Antelope             ^PVT_(?:K1|R1|WA)_[1-9A-HJ-NP-Za-km-z]{50,52}$
+#PVT_K1_5KD3YoRWgkmKPKMzsYPXS7HeryzU6rbXZ1GYGXF18ycW38DsnjG
